@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout  # checkout latest code in Github
       - run:
-        command: ./build-jekyll.sh
+          command: ./build-jekyll.sh
 workflows:
   version: 2
   build:  # workflow is called `build`
